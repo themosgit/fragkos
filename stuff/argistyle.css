@@ -1,0 +1,702 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    color: #fff;
+}
+@media only screen and (min-width: 1601px) and (max-width: 10000000px){
+  body{
+    background-color: #000;
+  }
+  
+  h1{
+      color: #0BFFAC;
+      font-size: 280%;
+  }
+  .listhome 
+    {
+      position: absolute;
+      top: 1.5%;
+      left: 21%;
+      list-style-type: none;
+      margin: 1px;
+      padding: 1px;
+      overflow: hidden;
+    }
+    
+    li 
+    {
+      float: left;
+    
+    }
+    
+    li a 
+    {
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 200%;
+      text-decoration: none;
+    }
+    
+    li a:hover 
+    {
+      color: #0BFFAC;
+    }
+  .nameh{
+      position: absolute;
+      top: 0%;
+      padding: 1px;
+      margin:1px; 
+      left: 2%;
+  }
+  .profile {
+      position: absolute;
+      top: 0%;
+      right: 0%;
+      height: 100%;
+      left: 60%;
+  }
+  .homec{
+      position: absolute;
+      font-size: 1000%;
+      width: 50px;
+      left: 10%;
+  
+  }
+  .homep{
+    position: absolute;
+    left: 10%;
+    top: 70%;
+    font-size: 150%;
+  }
+  .nameb{
+    position: absolute;
+    font-size: 280%;
+    top: 0%;
+    left: 42%;
+    padding: 1px;
+    margin:1px; 
+  }
+  .listbio 
+    {
+      position: absolute;
+      top: 1%;
+      left: 63%;
+      list-style-type: none;
+      margin: 1px;
+      padding: 1px;
+      overflow: hidden;
+      font-size: 120%;
+    }
+  .bioimage{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    right: 62%;
+  }
+  .biography{
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    font-size: 260%
+  }
+  .biopara{
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    width: 55%;
+    font-size: 180%;
+  }
+  .listphotos{
+    position: absolute;
+    top: 1%;
+    left: 23%;
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+    overflow: hidden;
+    font-size: 120%
+  }
+  .namep{
+      font-size: 280%;
+      position: absolute;
+      top: 0%;
+      padding: 1px;
+      margin:1px; 
+      left: 2%;
+  }
+  .portfolio{
+    position: absolute;
+    font-size: 280%;
+    top: 0%;
+    left: 70%;
+    padding: 1px;
+    margin: 1px;
+  }
+  .p1{
+    position: absolute;
+    width: 30%;
+    top: 20%;
+    left: 10%;
+    border-radius:15px;
+  }
+  .p2{
+    position: absolute;
+    width: 30%;
+    top: 20%;
+    right: 10%;
+    border-radius:15px;
+  }
+  .p3{
+    position: absolute;
+    width: 30%;
+    top: 120%;
+    left: 10%;
+    border-radius:15px;
+  }
+  .p4{
+    position: absolute;
+    width: 30%;
+    top: 120%;
+    right: 10%;
+    border-radius:15px;
+  }
+  .p5{
+    position: absolute;
+    width: 30%;
+    top: 220%;
+    left: 10%;
+    border-radius:15px;
+  
+  }
+  .p6{
+    position: absolute;
+    width: 30%;
+    top: 220%;
+    right: 10%;
+    border-radius:15px;
+  }
+  
+  }
+
+@media only screen and (min-width: 1240px) and (max-width: 1600px){
+body{
+  background-color: #000;
+}
+
+h1{
+    color: #0BFFAC;
+    font-size: 260%;
+}
+.listhome 
+  {
+    position: absolute;
+    top: 2%;
+    left: 23%;
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+    overflow: hidden;
+  }
+  
+  li 
+  {
+    float: left;
+  
+  }
+  
+  li a 
+  {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 175%;
+    text-decoration: none;
+  }
+  
+  li a:hover 
+  {
+    color: #0BFFAC;
+  }
+.nameh{
+    position: absolute;
+    top: 0%;
+    padding: 1px;
+    margin:1px; 
+    left: 2%;
+}
+.profile {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 100%;
+    left: 63.3%;
+}
+.homec{
+    position: absolute;
+    font-size: 800%;
+    width: 50px;
+    left: 10%;
+
+}
+.homep{
+  position: absolute;
+  left: 10%;
+  top: 75%;
+}
+.nameb{
+  position: absolute;
+  font-size: 260%;
+  top: 0%;
+  left: 42%;
+  padding: 1px;
+  margin:1px; 
+}
+.listbio 
+  {
+    position: absolute;
+    top: 1.5%;
+    left: 63%;
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+    overflow: hidden;
+  }
+.bioimage{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+}
+.biography{
+  position: absolute;
+  top: 20%;
+  left: 42%;
+  font-size: 260%
+}
+.biopara{
+  position: absolute;
+  top: 35%;
+  left: 42%;
+  width: 55%;
+  font-size: 180%;
+}
+.listphotos{
+  position: absolute;
+  top: 2%;
+  left: 23%;
+  list-style-type: none;
+  margin: 1px;
+  padding: 1px;
+  overflow: hidden;
+}
+.namep{
+    font-size: 260%;
+    position: absolute;
+    top: 0%;
+    padding: 1px;
+    margin:1px; 
+    left: 2%;
+}
+.portfolio{
+  position: absolute;
+  font-size: 260%;
+  top: 0%;
+  left: 70%;
+  padding: 1px;
+  margin: 1px;
+}
+.p1{
+  position: absolute;
+  width: 30%;
+  top: 20%;
+  left: 10%;
+  border-radius:15px;
+}
+.p2{
+  position: absolute;
+  width: 30%;
+  top: 20%;
+  right: 10%;
+  border-radius:15px;
+}
+.p3{
+  position: absolute;
+  width: 30%;
+  top: 120%;
+  left: 10%;
+  border-radius:15px;
+}
+.p4{
+  position: absolute;
+  width: 30%;
+  top: 120%;
+  right: 10%;
+  border-radius:15px;
+}
+.p5{
+  position: absolute;
+  width: 30%;
+  top: 220%;
+  left: 10%;
+  border-radius:15px;
+
+}
+.p6{
+  position: absolute;
+  width: 30%;
+  top: 220%;
+  right: 10%;
+  border-radius:15px;
+}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1239px){
+  body{
+    background-color: #000;
+  }
+  
+  h1{
+      color: #0BFFAC;
+      font-size: 260%;
+  }
+  .listhome 
+    {
+      position: absolute;
+      top: 8%;
+      left: 0%;
+      list-style-type: none;
+      margin: 1px;
+      padding: 1px;
+      overflow: hidden;
+    }
+    
+    li 
+    {
+      float: left;
+    
+    }
+    
+    li a 
+    {
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 175%;
+      text-decoration: none;
+    }
+    
+    li a:hover 
+    {
+      color: #0BFFAC;
+    }
+  .nameh{
+      position: absolute;
+      top: 0%;
+      padding: 1px;
+      margin:1px; 
+      left: 2%;
+  }
+  .profile {
+      position: absolute;
+      top: 0%;
+      right: 0%;
+      height: 100%;
+  }
+  .homec{
+      position: absolute;
+      font-size: 650%;
+      width: 50px;
+      left: 2%;
+      top: 15%;
+  
+  }
+  .homep{
+    position: absolute;
+    left: 2%;
+    top: 70%;
+  }
+  .nameb{
+    position: absolute;
+    font-size: 250%;
+    top: 0%;
+    left: 64%;
+    padding: 1px;
+    margin:1px; 
+  }
+  .listbio 
+    {
+      position: absolute;
+      top: 7%;
+      left: 62%;
+      list-style-type: none;
+      margin: 1px;
+      padding: 1px;
+      overflow: hidden;
+    }
+  .bioimage{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+  }
+  .biography{
+    position: absolute;
+    top: 15%;
+    left: 63%;
+    font-size: 260%
+  }
+  .biopara{
+    position: absolute;
+    top: 35%;
+    right: 2%;
+    width: 37%;
+    font-size: 150%;
+  }
+  .listphotos{
+    position: absolute;
+    top: 2%;
+    left: 27%;
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+    overflow: hidden;
+  }
+  .namep{
+      font-size: 260%;
+      position: absolute;
+      top: 0%;
+      padding: 1px;
+      margin:1px; 
+      left: 2%;
+  }
+  .portfolio{
+    position: absolute;
+    font-size: 260%;
+    top: 0%;
+    left: 70%;
+    padding: 1px;
+    margin: 1px;
+  }
+  .p1{
+    position: absolute;
+    width: 30%;
+    top: 20%;
+    left: 10%;
+    border-radius:15px;
+  }
+  .p2{
+    position: absolute;
+    width: 30%;
+    top: 20%;
+    right: 10%;
+    border-radius:15px;
+  }
+  .p3{
+    position: absolute;
+    width: 30%;
+    top: 120%;
+    left: 10%;
+    border-radius:15px;
+  }
+  .p4{
+    position: absolute;
+    width: 30%;
+    top: 120%;
+    right: 10%;
+    border-radius:15px;
+  }
+  .p5{
+    position: absolute;
+    width: 30%;
+    top: 220%;
+    left: 10%;
+    border-radius:15px;
+  
+  }
+  .p6{
+    position: absolute;
+    width: 30%;
+    top: 220%;
+    right: 10%;
+    border-radius:15px;
+  }
+  
+  }
+  @media only screen and (min-width: 375px) and (max-width: 768px){
+  body{
+    background-color: #000;
+  }
+  
+  h1{
+      color: #0BFFAC;
+      font-size: 200%;
+  }
+  .listhome 
+    {
+      position: absolute;
+      top: 8%;
+      left: 10px;
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+    }
+    
+    li 
+    {
+      float: left;
+    
+    }
+    
+    li a 
+    {
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 120%;
+      text-decoration: none;
+    }
+    
+    li a:hover 
+    {
+      color: #0BFFAC;
+    }
+  .nameh{
+      position: absolute;
+      top: 0%;
+      padding: 1px;
+      margin:1px; 
+      left: 29px;
+  }
+  .profile {
+      position: absolute;
+      bottom: 15%;
+      width: 100%;
+      right: 0%;
+      left: 0%;
+  }
+  .homec{
+      display: none;
+      position: absolute;
+      font-size: 650%;
+      width: 50px;
+      left: 2%;
+      top: 15%;
+  
+  }
+  .homep{
+    position: absolute;
+    left: 30px;
+    bottom: 5%;
+  }
+  .nameb{
+    position: absolute;
+    font-size: 200%;
+    top: 0%;
+    left: 30px;
+    padding: 0px;
+    margin:0px; 
+  }
+  .listbio 
+    {
+      position: absolute;
+      top: 7%;
+      left: 10px;
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+    }
+  .bioimage{
+    position: absolute;
+      bottom: 18%;
+      left: 0%;
+      width: 100%;
+      right: 0%;
+      padding: 0%;
+      margin: 0%;
+  }
+  .biography{
+    position: absolute;
+    top: 80%;
+    left: 30px;
+    font-size: 180%
+  }
+  .biopara{
+    position: absolute;
+    top: 90%;
+    left: 30px;
+    width: 85%;
+    font-size: 120%;
+  }
+  .listphotos{
+    position: absolute;
+    top: 6%;
+    left: 0%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+  .namep{
+      font-size: 200%;
+      position: absolute;
+      top: 0%;
+      padding: 0px;
+      margin:0px; 
+      left: 19px;
+  }
+  .portfolio{
+    position: absolute;
+    font-size: 200%;
+    top: 0%;
+    left: 70%;
+    padding: 1px;
+    margin: 1px;
+  }
+  .p1{
+    position: absolute;
+    width: 80%;
+    top: 20%;
+    left:40px;
+    border-radius:15px;
+  }
+  .p2{
+    position: absolute;
+    width: 80%;
+    top: 100%;
+    left:40px;
+    border-radius:15px;
+  }
+  .p3{
+    position: absolute;
+    width: 80%;
+    top: 180%;
+    left:40px;
+    border-radius:15px;
+  }
+  .p4{
+    position: absolute;
+    width: 80%;
+    top: 260%;
+    left:40px;
+    border-radius:15px;
+  }
+  .p5{
+    position: absolute;
+    width: 80%;
+    top: 340%;
+    left:40px;
+    border-radius:15px;
+  
+  }
+  .p6{
+    position: absolute;
+    width: 80%;
+    top: 420%;
+    left:40px;
+    border-radius:15px;
+  }
+}
